@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorialize</title>
+</head>
+<body>
+    <div>
+        <label for="number">Pick a Number</label>
+        <input type="number" id="number" name="number">
+        <input type="submit" id="submit" name="submit" value="Factorialize">
+        <p id="vastaus"></p>
+    </div>
+
+    <script>
+        const result = document.querySelector("#vastaus");
+        const btn = document.querySelector("#submit");
+        
+        const factorial = () => {
+            let num = document.querySelector("#number").value;
+    if (num === 0 || num === 1)
+    result.innerHTML = 1;
+  for (var i = num - 1; i >= 1; i--) {
+    num *= i;
+  };
+  result.innerHTML = num;
+};
+btn.addEventListener("click", factorial);
+    </script>
+</body>
+</html>
