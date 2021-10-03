@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-top: 35px;
+    opacity: 0.9;
+}
+
+body {
+    font-family: 'Lexend Mega';
+    text-align: center;
+    font-size: 22px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+
+}
+
+ul {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+color: black;
+list-style: none;
+padding: 10px 10px;
+text-decoration: underline;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2, h3, h4, p {
+    margin: 0;
+    padding: 10px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.banner {
+    height: 300px;
+    padding-top: 35px;
+    background-image: url("images/verne-ho-0LAJfSNa-xQ-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.content {
+    background-color: white;
+}
+
+.portfolio {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;  
+}
+
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 470px;
+}
+
+figure {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+.company img {
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+
+.employees {
+   background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+   padding-top: 5px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.employee {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+
+.employee img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
