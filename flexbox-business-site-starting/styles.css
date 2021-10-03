@@ -66,6 +66,16 @@ h3 {
     font-weight: bold;
 }
 
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 .banner {
     height: 300px;
     padding-top: 35px;
@@ -135,4 +145,8 @@ figure {
     margin-right: auto;
     width: 200px;
     height: auto;
+}
+
+.contact, .copyright {
+    padding-top: 20px;
 }
