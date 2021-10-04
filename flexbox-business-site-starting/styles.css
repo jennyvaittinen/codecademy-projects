@@ -110,7 +110,7 @@ h5 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 470px;
+    width: 470px;
 }
 
 figure {
